@@ -21,12 +21,13 @@
 
 ## General Information
 - This website emulates the Simon Game, a exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order.
-- This website was made to practice my JavaScript Skills.
+- This website was made to practice my jQuery & JS Skills.
 
 ## Technologies Used
 - HTML5
 - CSS3
 - JavaScript
+- jQuery
 - Atom Editor
 - Firefox DevTools
 
