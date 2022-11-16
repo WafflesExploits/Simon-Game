@@ -16,6 +16,7 @@ $(".btn").click(function(event){
   targetu = event.currentTarget;
   targetu.classList.add("pressed");
   var coloru = targetu.classList[1];
+  buttonAudio(coloru);
   removePressed(coloru);
   playerorder.push(coloru);
   if(!checkArrays(playerorder, gameorder)){gameover(); return;}
@@ -103,6 +104,7 @@ function nextSequence(){
 function getOrder() {
   var rndcolor = getRndnum(4);
   var color = colors[rndcolor];
+  buttonAudio(color);
   $("."+color).fadeIn(100).fadeOut(100).fadeIn(100);
   gameorder.push(color);
 }
