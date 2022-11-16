@@ -1,6 +1,6 @@
 
 <h1 align="center">
-<img alt="SimonGame" title="SimonGame" src="https://user-images.githubusercontent.com/15943431/202028606-ce4b3aac-c90a-4d0c-9867-ecf53a8de115.png">
+<img alt="SimonGame" title="SimonGame" src="https://user-images.githubusercontent.com/15943431/202208972-c75e6a59-71a1-4f80-9ad2-5a137a1af511.png">
 </h1>
 
 <h3 align="center">
