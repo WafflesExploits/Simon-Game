@@ -37,7 +37,7 @@ function removePressed(colorus){
 $(document).keypress(function restartgame() {
   if(start) {
     start = false;
-    $("body").removeClass("game-over");
+
     gameorder = [];
     playerorder = [];
     level = 0;
@@ -57,6 +57,11 @@ function gameoverAudio(){
   audio.play();
 }
 
+function rmflashScreen(){
+  setTimeout(function (){
+    $("body").removeClass("game-over");
+  },400)
+}
 function gameover(){
   gameorder = [];
   playerorder = [];
@@ -66,6 +71,7 @@ function gameover(){
   $("body").addClass("game-over");
   gameoverAudio();
   start = true;
+  rmflashScreen();
 }
 
 function checkArrays(a, b){
