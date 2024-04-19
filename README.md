@@ -7,7 +7,7 @@
   > <em>Test your memory</em> with this Simon game.
 </h3>
 <h3 dir="auto" align="center">
-  > Live website <a href="https://wafflesexploit.github.io/Simon-Game/" >here</a>.
+  > Live website <a href="https://wafflesexploits.github.io/Simon-Game/" >here</a>.
 </h3>
 
 ## Table of Contents
